@@ -1,0 +1,55 @@
+{
+  "cpc": {
+    "uri": "http://13.209.66.232:8080"
+  },
+
+  "inch": {
+    "api": {
+      "uri": "http://api-d.inch.me:8000"
+    },
+    "papi": {
+      "uri": "http://papi-d.inch.me:8000"
+    }
+  },
+
+  "s3": {
+    "region": "ap-northeast-2",
+    "bucket": "ep-s.inch.me",
+    "endpoint" : "http://ep-s.inch.me/etl/"
+  },
+
+  "logger" : {
+    "file": {
+      "level" : "info"
+    },
+    "console" : {
+      "level" : "debug"
+    },
+    "cloudWatch" : {
+      "level" : "info",
+      "region" : "ap-northeast-2"
+    }
+  },
+
+  "cloudWatch": {
+    "region" : "ap-northeast-2"
+  },
+
+  "aws": {
+    "accessKeyId" : "",
+    "secretAccessKey" : ""
+  },
+
+  "linkprice": {
+    "api": {
+      "uri": "https://api.linkprice.com/ci/product/data/A100627856"
+    },
+    "stores": ["11st", "tmon"],
+    "sites": [
+      {
+        "name": "G마켓",
+        "uri": "http://www.gmarket.co.kr"
+      }
+    ]
+  }
+}
